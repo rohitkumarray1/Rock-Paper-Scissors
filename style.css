@@ -90,15 +90,14 @@ body {
         font-size: 7px;
     }
     .container {
-        gap: 4rem;
+        gap: 5rem;
     }
     .game-heading {
         position: fixed;
         top: 0;
     }
     .choices {
-        gap: 4rem;
-        margin-top: 5rem;
+        gap: 2.5rem;
     }
     .choice {
         width: 105px;
