@@ -13,11 +13,15 @@ body {
 .container {
     width: 100%;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .game-heading {
-    text-align: center;
     background-color: #081b31;
-    transition: all 0.3s ease-in;
+    width: 100%;
+    text-align: center;
 }
 .game-heading h1 {
     color: #ffffff;
@@ -83,6 +87,13 @@ body {
 @media only screen and (max-width: 600px) {
     html {
         font-size: 7px;
+    }
+    .container {
+        gap: 4rem;
+    }
+    .choices {
+        gap: 4rem;
+        margin-top: 5rem;
     }
     .choice {
         width: 105px;
