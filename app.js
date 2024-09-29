@@ -62,6 +62,8 @@ function gameDraw(userChoice, compChoice) {
 resetGame.addEventListener('click', () => {
     compS = 0;
     userS = 0;
+    userScore.innerText = 0;
+    compScore.innerText = 0;
     gameResult.innerText = "Play your move";
     gameResult.style.backgroundColor = "#2E073F";
 });
